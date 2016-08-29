@@ -363,11 +363,18 @@ input[type="search"]::-webkit-search-decoration {
     transform: translateY(0);
   }
 }
+html {
+  height: 100%;
+}
+body {
+  background-image: url("../img/starry.jpg");
+}
 body >header {
   width: 100%;
   -webkit-box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
   box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
   background: #ea6753;
+  background: #063d81;
   color: #fff;
   padding: 1em 0 0.8em;
 }
@@ -390,6 +397,7 @@ body >header >div {
 body >header a {
   display: block;
   color: #fff;
+  font-family: Microsoft YaHei;
 }
 #imglogo {
   float: left;
@@ -408,17 +416,17 @@ body >header a {
   }
 }
 #imglogo img {
-  width: 4em;
+  width: 5em;
   border-radius: 500px;
 }
 @media only screen and (min-width: 768px) {
   #imglogo img {
-    width: 5em;
+    width: 6em;
   }
 }
 @media only screen and (min-width: 1024px) {
   #imglogo img {
-    width: 5.5em;
+    width: 6.5em;
   }
 }
 #textlogo {
@@ -428,6 +436,7 @@ body >header a {
 }
 #textlogo h1.site-name {
   width: 86%;
+  margin-left: 3rem;
   font-family: "covered_by_your_graceregular";
   font-size: 200%;
   line-height: 1.5;
@@ -447,6 +456,7 @@ body >header a {
 #textlogo h2.blog-motto {
   font-size: 0.7em;
   font-weight: normal;
+  margin-left: 3rem;
 }
 @media only screen and (min-width: 768px) {
   #textlogo h2.blog-motto {
@@ -1720,12 +1730,17 @@ footer {
   margin-top: 1em;
   background: #1f1f1f;
   padding: 0 2% 0.5em;
+  height: 6rem;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
 #footer {
   width: 95%;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
+  height: 6rem;
 }
 #footer .line {
   width: 100%;
