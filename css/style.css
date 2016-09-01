@@ -1731,7 +1731,7 @@ section.comment {
 }
 footer {
   margin-top: 1em;
-  background: #1f1f1f;
+  background-color: rgba(0,0,0,0.7);
   padding: 0 2% 0.5em;
   height: 3rem;
   position: fixed;
@@ -1744,61 +1744,6 @@ footer {
   overflow: hidden;
   position: relative;
   height: 3rem;
-}
-#footer .line {
-  width: 100%;
-  height: 14em;
-  margin: 0 auto;
-}
-@media only screen and (min-width: 768px) {
-  #footer .line {
-    width: 10em;
-    float: left;
-    position: relative;
-  }
-}
-#footer .line span {
-  display: block;
-  width: 0.5em;
-  height: 6.25em;
-  border-right: 0.125em solid #fff;
-  margin: 0 auto;
-}
-@media only screen and (min-width: 768px) {
-  #footer .line span {
-    position: absolute;
-    left: 3em;
-    margin: 0 0 1.5em;
-  }
-}
-.author {
-  width: 6.875em;
-  height: 6.875em;
-  margin: 0 auto;
-  background: no-repeat url("img/author.jpg") left top;
-  -webkit-background-size: 6.875em 6.875em;
-  -moz-background-size: 6.875em 6.875em;
-  background-size: 6.875em 6.875em;
-  border-radius: 3.4375em;
-  -webkit-transition: -webkit-transform 2s ease-out;
-  -moz-transition: -moz-transform 2s ease-out;
-  -o-transition: -o-transform 2s ease-out;
-  -ms-transition: -ms-transform 2s ease-out;
-  transition: transform 2s ease-out;
-}
-.author:hover {
-  -webkit-transform: rotateZ(360deg);
-  -moz-transform: rotateZ(360deg);
-  -o-transform: rotateZ(360deg);
-  -ms-transform: rotateZ(360deg);
-  transform: rotateZ(360deg);
-}
-@media only screen and (min-width: 768px) {
-  .author {
-    position: absolute;
-    top: 6em;
-    margin: 0 0 1.5em;
-  }
 }
 .info {
   font-family: "covered_by_your_graceregular";
@@ -1883,6 +1828,9 @@ footer {
   width: 100%;
   color: #fff;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
 }
 @media only screen and (min-width: 768px) {
   .copyright {
