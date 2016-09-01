@@ -370,6 +370,7 @@ body {
   background-image: url("../img/starry.jpg");
 }
 body >header {
+  height: 6rem;
   width: 100%;
   -webkit-box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
   box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
@@ -628,9 +629,11 @@ header nav ul li a:hover {
 #main section.post a h1 {
   color: #2ca6cb;
   line-height: 2;
+  font-size: 1.3rem;
 }
 #main section.post a p {
   color: #817c7c;
+  font-size: 0.9rem;
 }
 #main section.post a time {
   color: #817c7c;
@@ -1730,7 +1733,7 @@ footer {
   margin-top: 1em;
   background: #1f1f1f;
   padding: 0 2% 0.5em;
-  height: 6rem;
+  height: 3rem;
   position: fixed;
   bottom: 0px;
   width: 100%;
@@ -1740,7 +1743,7 @@ footer {
   margin: 0 auto;
   overflow: hidden;
   position: relative;
-  height: 6rem;
+  height: 3rem;
 }
 #footer .line {
   width: 100%;
@@ -1883,7 +1886,7 @@ footer {
 }
 @media only screen and (min-width: 768px) {
   .copyright {
-    float: left;
+    margin-top: 1rem;
   }
 }
 .copyright a {
